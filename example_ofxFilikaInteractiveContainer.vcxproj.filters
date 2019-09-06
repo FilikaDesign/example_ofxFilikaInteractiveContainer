@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFilika">
+      <UniqueIdentifier>{1DBDF9C8-A1C4-E8EE-F620-F4C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFilika\src">
+      <UniqueIdentifier>{A0858169-7F80-3E2B-7718-F84A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaConstants.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaContentScroller.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaDraggableButton.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaHapPlayer.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaImageButton.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaInteractiveContainer.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaKinect.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaLanDeviceControl.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaMultiTouch.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaMultiTouchEvents.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaRS232.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaTextButton.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaUtils.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaWinVirtualKeyboard.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFilika\src\ofxFilikaZiraatMusDevice.h">
+      <Filter>addons\ofxFilika\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\testObj.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
