@@ -26,4 +26,5 @@ class ofApp : public ofBaseApp{
 		
 
 		testObj test;
+		void testObjClicked(string & _e);
 };

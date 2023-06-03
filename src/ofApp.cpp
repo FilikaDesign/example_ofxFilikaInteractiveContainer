@@ -2,7 +2,17 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-	test.setup();
+	ofLogToConsole();
+
+	// Setup object
+	test.setup("years.png");
+
+	// add event listener
+	ofAddListener(test.BUTTON_CLICKED, this, &ofApp::testObjClicked);
+}
+
+void ofApp::testObjClicked(string & _e) {
+	ofLog() << "response : " << _e;
 }
 
 //--------------------------------------------------------------
